@@ -6,7 +6,10 @@ class test:
     def demo1(self):
         print("this is hadoop jobs")
         print("this is data scientist")
+    def stop(self):
+        print("this is master branch")
 
 dd = test()
 dd.demo()
 dd.demo1()
+dd.stop()
