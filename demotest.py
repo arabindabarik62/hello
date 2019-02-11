@@ -8,8 +8,11 @@ class test:
         print("this is data scientist")
     def stop(self):
         print("this is master branch")
+    def start(self):
+        print("this is just start")
 
 dd = test()
 dd.demo()
 dd.demo1()
 dd.stop()
+dd.start()
